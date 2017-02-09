@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:first_customer="http://schemas.android.com/apk/res/com.smart.customer_view_03_19"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <!-- first_customer:text="第三种" -->
+    <com.smart.customer_view_03_19.customerview.MyFirstCustomerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/small_padding"
+        android:layout_centerInParent="true"
+        first_customer:text="第三种"
+        first_customer:textColor="@color/blue"
+        first_customer:textSize="@dimen/x_large_font"
+        />
+
+</RelativeLayout>

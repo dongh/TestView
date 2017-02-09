@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#00f</color>
+    <color name="green">#0f0</color>
+    <color name="oriange">#EE7942</color>
+    <color name="purple">#7A378B</color>
+    <color name="red">#f00</color>
+    <declare-styleable name="MyFirstCustomerView"><attr format="string" name="text"/><attr format="color" name="textColor"/><attr format="dimension" name="textSize"/><attr format="reference" name="myCustomerStyle"/></declare-styleable>
+    <dimen name="devider_height">1dp</dimen>
+    <dimen name="dialog_width">240dp</dimen>
+    <dimen name="item_height">48dp</dimen>
+    <dimen name="large_font">24sp</dimen>
+    <dimen name="large_padding">32dp</dimen>
+    <dimen name="medium_font">22sp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="micro_font">16sp</dimen>
+    <dimen name="micro_font_extra">14sp</dimen>
+    <dimen name="micro_padding">4dp</dimen>
+    <dimen name="small_font">18sp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="ten_padding">10dp</dimen>
+    <dimen name="x_large_font">36sp</dimen>
+    <dimen name="zero_padding">0dp</dimen>
+    <string name="app_name">Customer_View_03_19</string>
+    <string name="hello_world">Hello world!</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="MyAppTheme_1" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="textColor">@color/red</item>
+        <item name="text">第一种</item>
+        <item name="textSize">@dimen/x_large_font</item>
+    </style>
+    <style name="MyAppTheme_2" parent="@android:style/Theme.Light.NoTitleBar">
+         <item name="myCustomerStyle">@style/MyFirstCustomerViewStyle_2</item>
+    </style>
+    <style name="MyFirstCustomerViewStyle_1">
+        <item name="textColor">@color/green</item>
+        <item name="text">第二种</item>
+        <item name="textSize">@dimen/x_large_font</item>
+    </style>
+    <style name="MyFirstCustomerViewStyle_2" parent="@android:style/Theme.Light.NoTitleBar">
+         <item name="textColor">@color/oriange</item>
+        <item name="text">第四种（2）</item>
+        <item name="textSize">@dimen/x_large_font</item>
+    </style>
+    <style name="MyFirstCustomerViewStyle_3">
+        <item name="textColor">@color/purple</item>
+        <item name="text">第四种（3）</item>
+        <item name="textSize">@dimen/x_large_font</item>
+    </style>
+</resources>

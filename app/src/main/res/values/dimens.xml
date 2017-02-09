@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Padding & Margin -->
+    <dimen name="zero_padding">0dp</dimen>
+    <dimen name="devider_height">1dp</dimen>
+    <dimen name="micro_padding">4dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="ten_padding">10dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="large_padding">32dp</dimen>
+    <dimen name="item_height">48dp</dimen>
+    <dimen name="dialog_width">240dp</dimen>
+
+    <!-- Text Size -->
+    <dimen name="micro_font_extra">14sp</dimen>
+    <dimen name="micro_font">16sp</dimen>
+    <dimen name="small_font">18sp</dimen>
+    <dimen name="medium_font">22sp</dimen>
+    <dimen name="large_font">24sp</dimen>
+    <dimen name="x_large_font">36sp</dimen>
+	
+    
+</resources>

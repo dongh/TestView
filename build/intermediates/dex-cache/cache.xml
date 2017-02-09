@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Android\AndroidStudioWP\Customer_View_03_19\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_be220b38eb335326b6406b05fa5b60644c539549.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.11.0\840897fcd7223a8143f1d9b6f69714e7be34fd50\okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="C:\Android\AndroidStudioWP\Customer_View_03_19\app\build\intermediates\pre-dexed\debug\okio-1.11.0_893d7cba6fd833c845f42c6194f7ff7a73716aa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.tickaroo.tikxml\annotation\0.8.9-SNAPSHOT\3c9ba20bb902543e5738ce0b1a2f33f24ca87123\annotation-0.8.9-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c9ba20bb902543e5738ce0b1a2f33f24ca87123">
+        <dex dex="C:\Android\AndroidStudioWP\Customer_View_03_19\app\build\intermediates\pre-dexed\debug\annotation-0.8.9-SNAPSHOT_b42e41e885708f5f790461a5e40bb20535c8f117.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.tickaroo.tikxml\core\0.8.9-SNAPSHOT\76b42f832d4d542a05f1992a7b9eb40cd58ffd3d\core-0.8.9-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76b42f832d4d542a05f1992a7b9eb40cd58ffd3d">
+        <dex dex="C:\Android\AndroidStudioWP\Customer_View_03_19\app\build\intermediates\pre-dexed\debug\core-0.8.9-SNAPSHOT_e0179a526c790dc5a55faf6014ab5ebf0ce5813b.jar" />
+    </item>
+
+</items>

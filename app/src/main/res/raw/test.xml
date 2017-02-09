@@ -1,0 +1,7 @@
+<book id="123">
+  <title>Effective Java</title>
+  <author>
+    <firstname>Joshua</firstname>
+    <lastname>Bloch</lastname>
+  </author>
+</book>
